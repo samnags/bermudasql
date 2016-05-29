@@ -1,15 +1,15 @@
 
-// @import "custom";
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
 @import "modern-business";
+// @import "custom";
 
-
-.panel-heading {
+.panel-default > .panel-heading {
   background-color: #0084b4;
 }
 
-.page-header {
-  // background-color: #b41017;
+.navbar {
+  background-color: #b41017;
 }

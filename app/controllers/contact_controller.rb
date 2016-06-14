@@ -1,6 +1,6 @@
-class ContactController < ApplicationController
-
-  def contact
-  end
-  
-end
+# class ContactController < ApplicationController
+#
+#   def contact
+#   end
+#
+# end

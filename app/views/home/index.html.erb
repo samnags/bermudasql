@@ -53,7 +53,9 @@
 
           <div class="item">
                 <div class="fill" style="background-image">
-                  <%= image_tag("kids.jpg", style: "background-image", class: "fill") %>
+                  <%= link_to(deal_path), action_path(anchor: tips) do %>
+                    <%= image_tag("kids.jpg", style: "background-image", class: "fill") %>
+                    <% end %>
                 </div>
                 <div class="carousel-caption">
                     <h2>Having Aecon pay for the airport will free up money for after school programs </h2>

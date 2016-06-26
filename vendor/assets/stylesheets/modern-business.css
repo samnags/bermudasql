@@ -44,7 +44,7 @@ header.carousel .fill {
     background-size: cover;
 }
 
-header.carousel-caption {
+#myCarousel > div > div.item.active > div.carousel-caption {
   color: black;
 }
 

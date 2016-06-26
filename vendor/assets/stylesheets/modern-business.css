@@ -44,6 +44,10 @@ header.carousel .fill {
     background-size: cover;
 }
 
+header.carousel-caption {
+  color: black;
+}
+
 /* 404 Page Styles */
 
 .error-404 {

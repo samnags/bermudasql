@@ -21,7 +21,9 @@
       <div class="carousel-inner">
           <div class="item active">
               <div class="fill" style="background-image">
-                <%= image_tag("airport.jpg", style: "background-image", class: "fill")%>
+                <%= link_to(airport) do %>
+                  <%= image_tag("airport.jpg", style: "background-image", class: "fill")%>
+                <% end %>
               </div>
               <div class="carousel-caption">
                   <h2>Why Bermuda Needs a New Airport Terminal</h2>

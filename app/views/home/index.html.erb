@@ -31,18 +31,23 @@
           </div>
           <div class="item">
             <div class="fill" style="background-image">
-              <%= image_tag("sunset.jpg", style: "background-image", class: "fill")%>
+              <%= link_to(deal_path) do %>
+                <%= image_tag("sunset.jpg", style: "background-image", class: "fill")%>
+              <% end %>
             </div>
               <div class="carousel-caption">
-                  <h2>The Airport Project is a Great Deal for Bermuda</h2>
+                  <h2><%= link_to "The Airport Project is a Great Deal for Bermuda", deal_path, class: "homepage"</h2><%>
               </div>
           </div>
+
           <div class="item">
             <div class="fill" style="background-image">
-              <%= image_tag("employee.jpg", style: "background-image", class: "fill")%>
+              <%= link_to(jobs_path) do %>
+                <%= image_tag("employee.jpg", style: "background-image", class: "fill")%>
+              <% end %>
             </div>
               <div class="carousel-caption">
-                  <h2>The New Airport Terminal Will Create Jobs & Improve the Economy</h2>
+                  <h2><%= link_to "The New Airport Terminal Will Create Jobs & Improve the Economy", deal_path, class: "homepage"</h2><%>
               </div>
           </div>
 

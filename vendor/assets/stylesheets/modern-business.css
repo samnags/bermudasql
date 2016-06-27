@@ -37,20 +37,15 @@ header.carousel .item.active,
 header.carousel .carousel-inner {
     height: 400px;
     width: auto;
+    -webkit-background-position: center;
     background-position: center;
-    background-position: top right;
-    background-position-x: 50%;
-    background-position-y: 50%;
 }
 
 header.carousel .fill {
     max-height: 100%;
     max-width: 100%;
     background-position: center;
-    background-position: top right;
-    background-position-x: 50%;
-    background-position-y: 50%;
-
+    -webkit-background-position: center;
     /*background-size: cover;*/
 }
 

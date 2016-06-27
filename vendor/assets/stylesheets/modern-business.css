@@ -42,7 +42,7 @@ header.carousel .fill {
     max-height: 100%;
     max-width: 100%;
     background-position: center;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 /* 404 Page Styles */

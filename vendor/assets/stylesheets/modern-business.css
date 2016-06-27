@@ -34,8 +34,8 @@ header.carousel {
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
-    height: auto;
-    width: 100%;
+    height: 400px;
+    width: auto;
 }
 
 header.carousel .fill {

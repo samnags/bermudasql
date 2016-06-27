@@ -15,3 +15,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(window).load(function() {
+  $('.carousel').carousel({
+      interval: 5000 //changes the speed
+  })
+}

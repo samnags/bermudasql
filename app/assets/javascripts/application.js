@@ -16,8 +16,8 @@
 //= require turbolinks
 //= require_tree .
 
-$(window).load(function() {
+$(document).ready(function(){
   $('.carousel').carousel({
       interval: 5000 //changes the speed
   })
-}
+});

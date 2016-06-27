@@ -36,12 +36,14 @@ header.carousel .item.active,
 header.carousel .carousel-inner {
     height: 400px;
     width: auto;
+    background-position: center;
 }
 
 header.carousel .fill {
     max-height: 100%;
     max-width: 100%;
     background-position: center;
+
     /*background-size: cover;*/
 }
 

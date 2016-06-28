@@ -6,7 +6,7 @@
       interval: 5000 //changes the speed
   })
   </script> -->
-
+<%= javascript_include_tag 'home', 'data-turbolinks-track' => true %>
 
 <!-- Header Carousel -->
 <div id="faqHeader">
@@ -45,7 +45,7 @@
           <div class="item">
             <div class="fill" style="background-image">
               <%= link_to(jobs_path) do %>
-                <%= image_tag("employee.jpg", class: "fill") %>
+                <%= image_tag("new_staff.jpg", class: "fill") %>
               <% end %>
             </div>
               <div class="carousel-caption">
@@ -56,7 +56,7 @@
           <div class="item">
                 <div class="fill" style="background-image">
                   <%= link_to("deal.html#schools") do %>
-                    <%= image_tag("kids.jpg", class: "fill") %>
+                    <%= image_tag("new_kids.jpg", class: "fill") %>
                     <% end %>
                 </div>
                 <div class="carousel-caption">
@@ -86,37 +86,34 @@
         <div class="col-md-4">
             <div id="custom" class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-check"></i> Get the Facts</h4>
+                    <h4><i class="fa fa-fw fa-check"></i><a href="facts.html"> Get the Facts</a></h4>
                 </div>
                 <div class="panel-body">
                     <p>There’s been a lot of disinformation spread about the airport redevelopment project. It’s time to separate the truth from fiction.</p>
-                    <a href="facts.html" class="btn btn-default">Learn More</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-newspaper-o"></i> Airport News</h4>
+                    <h4><i class="fa fa-fw fa-newspaper-o"></i><a href="news.html"> Airport News</a></h4>
                 </div>
                 <div class="panel-body">
                     <p>Read the latest news & columns regarding the airport development.</p>
                     <br>
-                    <a href="news.html" class="btn btn-default">Learn More</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-compass"></i> FAQ</h4>
+                    <h4><i class="fa fa-fw fa-compass"></i><a href="faq.html">FAQ</a></h4>
                 </div>
                 <div class="panel-body">
                     <p>Find answers to some of the most common questions about the airport redevelopment project.
                       <br>
                       <br>
                   </p>
-                    <a href="faq.html" class="btn btn-default">Learn More</a>
                 </div>
             </div>
         </div>

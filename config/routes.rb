@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'home#index'
+  root 'home#home'
   get '/faq' => 'faq#faq'
-  get '/index' => 'home#index'
+  # get '/index' => 'home#index'
   get '/contact' => 'contact#contact'
   get '/facts' => 'facts#facts'
   get '/airport' => 'airport#airport'

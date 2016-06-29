@@ -1,6 +1,7 @@
 <% @articles.each do |a| %>
+<% binding.pry %>
   <a href="<%= a.url %>"><%=a.headline%></a>
-  <%= a.date_published.strftime("%B %e %Y")%><br><br>
+  <%= a.date_published.strftime("%B %e %Y") %><br><br>
   <%= a.snippet %>
   <br><br>
 <% end %>

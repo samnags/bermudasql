@@ -1,0 +1,6 @@
+<% @articles.each do |a| %>
+  <a href="<%= a.url %>"><%=a.headline%></a>
+  <%= a.date_published.strftime("%B %e %Y")%><br><br>
+  <%= a.snippet %>
+  <br><br>
+<% end %>

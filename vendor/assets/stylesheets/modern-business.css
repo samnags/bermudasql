@@ -30,6 +30,8 @@ body {
 
 header.carousel {
     height: 50%;
+    margin-right: -70px;
+    margin-left: -70px;
 }
 
 header.carousel .item,

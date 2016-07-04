@@ -18,6 +18,11 @@ body {
     padding-right: 50px;
 }
 
+.background {
+    linear-gradient: ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+
+
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -74,6 +79,10 @@ header.carousel .fill {
 .period {
     display: block;
     font-style: italic;
+}
+
+#accordion a {
+  color: white;
 }
 
 /* Footer Styles */

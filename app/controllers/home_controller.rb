@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
 
-  def home
+  def index
     @articles = Article.limit(1)
   end
 

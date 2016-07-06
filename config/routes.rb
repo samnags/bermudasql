@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get '/jobs' => 'jobs#index'
   get '/deal' => 'deal#index'
   get '/news' => 'news#index'
-
+  get '/admin/news' => 'news#new'
+  post '/admin/news' => 'news#create'
   end

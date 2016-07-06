@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 
   def index
-    @articles = Article.limit(4)
+    @articles = Article.order(date_published: :desc).limit(4)
   end
 
 end

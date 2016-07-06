@@ -1,6 +1,19 @@
+
 <% @articles.each do |a| %>
-  <a href="<%= a.url %>"><%=a.headline%></a>
-  <%= a.date_published.strftime("%B %e %Y") %><br><br>
-  <%= a.snippet %>
-  <br><br>
+
+  <div class="col-sm-3">
+      <div class="panel panel-default text-center">
+          <div>
+              <span>
+                <%= image_tag(a.outlet.image, class: "news_image") %>
+              </span>
+          </div>
+          <div class="panel-body">
+              <h4><a href="<%= a.url %>"><%=a.headline%></a></h4>
+              <p><%= a.date_published.strftime("%B %e %Y") %></p><br>
+              <p><%= a.snippet %><p>
+          </div>
+      </div>
+  </div>
+
 <% end %>

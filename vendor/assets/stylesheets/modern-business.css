@@ -41,6 +41,12 @@ h {
     opacity: 0.8;
 }
 
+
+.news_image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 /* Home Page Carousel */
 
 header.carousel {
@@ -103,6 +109,12 @@ footer {
 
 /* Responsive Styles */
 
+/*@media(max-width:1398) {
+  header {
+    height: 400px;
+  }
+}*/
+
 @media(max-width:991px) {
     .customer-img,
     .img-related {
@@ -116,6 +128,6 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 70%;
+        height: 60%;
     }
 }

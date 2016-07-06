@@ -74,51 +74,65 @@
       </a>
   </header>
 
-<!-- Marketing Icons Section -->
-  <div class="background">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">
-                A New Airport – Without New Debt
-            </h1>
-        </div>
-
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-newspaper-o"></i><a href="news.html"> Airport News</a></h4>
-                </div>
-                <div class="panel-body">
-                    <%= render "article" %>
-                  </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div id="custom" class="panel panel-default">
-                <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-check"></i><a href="facts.html"> Get the Facts</a></h4>
-                </div>
-                <div class="panel-body">
-                    <p>There’s been a lot of disinformation spread about the airport redevelopment project. It’s time to separate the truth from fiction.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-compass"></i><a href="faq.html">FAQ</a></h4>
-                </div>
-                <div class="panel-body">
-                    <p>Find answers to some of the most common questions about the airport redevelopment project.
-                      <br>
-                      <br>
-                  </p>
-                </div>
-            </div>
-        </div>
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">
+              A New Airport – Without New Debt
+          </h1>
       </div>
+
+
+  <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+          <div class="panel-heading">
+              <span class="fa-stack fa-5x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+              </span>
+          </div>
+          <div class="panel-body">
+              <h4>Airport News</h4>
+              <p>Read the latest news & columns regarding the airport development.</p><br>
+              <a href="news.html" class="btn btn-primary">Learn More</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+          <div class="panel-heading">
+              <span class="fa-stack fa-5x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+              </span>
+          </div>
+          <div class="panel-body">
+              <h4>Get the Facts</h4>
+              <p>There’s been a lot of disinformation spread about the airport redevelopment project. It’s time to separate the truth from fiction.</p></p>
+              <a href="facts.html" class="btn btn-primary">Learn More</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+          <div class="panel-heading">
+              <span class="fa-stack fa-5x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
+              </span>
+          </div>
+          <div class="panel-body">
+              <h4>Frequently Asked Questions</h4>
+              <p>Find answers to some of the most common questions about the airport redevelopment project.</p><br>
+              <a href="faq.html" class="btn btn-primary">Learn More</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+  <!-- News Section -->
+
+    <%= render partial: "article" %>
+
 
     <!-- Features Section -->
     <div class="row">

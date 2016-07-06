@@ -7,9 +7,11 @@
                 <%= image_tag(a.outlet.image, class: "news_image") %>
               </span>
           </div>
-          <div class="panel-body">
+          <div class="panel-body news">
               <h4><a href="<%= a.url %>"><%=a.headline%></a></h4>
               <p><%= a.date_published.strftime("%B %e %Y") %></p><br>
+          </div>
+          <div class="panel-body">
               <p><%= a.content %><p>
           </div>
       </div>

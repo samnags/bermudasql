@@ -63,6 +63,8 @@ header.carousel .carousel-inner {
     width: auto;
     -webkit-background-position: center;
     background-position: center;
+    overflow: hidden;
+    max-height: 500px;
 }
 
 header.carousel .fill {

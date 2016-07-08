@@ -23,6 +23,11 @@
 .panel-body .news {
 }
 
+.panel-heading > .panel-default > .cta {
+  background-color: transparent;
+}
+
+
 #myCarousel > div > div.item.active > div.carousel-caption > h2 > a {
   color: #ffffff;
 

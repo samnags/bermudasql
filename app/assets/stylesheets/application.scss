@@ -5,7 +5,11 @@
 
 // @import "custom";
 .panel-default > .panel-heading {
-  background-color: #D3D3D3;
+  background-color: #0084b4;
+}
+
+.panel-heading.cta {
+  background-color: transparent;;
 }
 
   // background-color: #0084b4;

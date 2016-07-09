@@ -20,13 +20,14 @@ body {
 }
 
 p,
-a {
-  font-family: "Times New Roman";
+a,
+h {
+  font-family: Optima, Seravek;
 }
-
+/*
 h {
   font-family: Helvetica;
-}
+}*/
 
 
 

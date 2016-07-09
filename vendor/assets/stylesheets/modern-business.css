@@ -9,13 +9,10 @@
 html,
 body {
     height: 100%;
-
 }
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .background {
@@ -112,12 +109,6 @@ footer {
 
 /* Responsive Styles */
 
-/*@media(max-width:1398) {
-  header {
-    height: 400px;
-  }
-}*/
-
 @media(max-width:991px) {
     .customer-img,
     .img-related {
@@ -131,6 +122,6 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 60%;
+        height: 70%;
     }
 }

@@ -1,16 +1,20 @@
 
 <% @articles.each do |a| %>
   <div class="col-sm-3">
-      <div class="panel panel-default text-center">
-          <div>
-              <span>
-                <%= image_tag(a.outlet.image, class: "news_image") %>
-              </span>
+      <div class="panel panel-default text-center news">
+        <!-- logo image -->
+          <div class="logo">
+              <%= image_tag(a.outlet.image, class: "news_image") %>
           </div>
-          <div class="panel-body news">
+        <!-- headline -->
+          <div class="panel-body news headline">
               <h4><a href="<%= a.url %>"><%=a.headline%></a></h4>
-              <p><%= a.date_published.strftime("%B %e %Y") %></p><br>
           </div>
+        <!-- published date -->
+            <div class="panel-body news date">
+              <p><%= a.date_published.strftime("%B %e %Y") %></p>
+            </div>
+        <!-- content -->
           <div class="panel-body">
               <p><%= a.content %><p>
           </div>

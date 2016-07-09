@@ -30,7 +30,9 @@ h {
   font-family: Helvetica;
 }*/
 
-
+.logo {
+  height: 70px;
+}
 
 .img-portfolio {
     margin-bottom: 30px;

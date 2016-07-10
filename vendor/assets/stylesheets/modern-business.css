@@ -28,6 +28,12 @@ h {
   font-family: Helvetica;
 }*/
 
+
+.claim {
+  border-style: solid;
+  padding: 15px;
+}
+
 .logo {
   height: 70px;
 }

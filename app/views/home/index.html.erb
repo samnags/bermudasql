@@ -1,11 +1,3 @@
-<!-- Script to Activate the Carousel -->
-
-  <!-- <script>
-
-  $('.carousel').carousel({
-      interval: 5000 //changes the speed
-  })
-  </script> -->
 <%= javascript_include_tag 'home', 'data-turbolinks-track' => true %>
 
 <!-- Header Carousel -->
@@ -23,8 +15,10 @@
           <div class="item active">
               <div class="fill background" style="background-image">
                 <%= link_to(airport_path) do %>
+                <div class ='carousel-image'>
                   <%= image_tag("airport2.jpg", class: "fill") %>
                 <% end %>
+                </div>
               </div>
               <div class="carousel-caption">
                   <h2><%= link_to "Why Bermuda Needs a New Airport Terminal", airport_path, class: "homepage" %></h2>
@@ -33,8 +27,10 @@
           <div class="item">
             <div class="fill background" style="background-image">
               <%= link_to(deal_path) do %>
+              <div class ='carousel-image'>
                 <%= image_tag("sunset2.jpg", class: "fill")%>
               <% end %>
+              </div>
             </div>
               <div class="carousel-caption">
                   <h2><%= link_to "The Airport Project is a Great Deal for Bermuda", deal_path, class: "homepage"%> </h2>
@@ -44,8 +40,10 @@
           <div class="item">
             <div class="fill background" style="background-image">
               <%= link_to(jobs_path) do %>
+              <div class ='carousel-image'>
                 <%= image_tag("new_staff2.jpg", class: "fill") %>
               <% end %>
+              </div>
             </div>
               <div class="carousel-caption">
                   <h2><%= link_to "The New Airport Terminal Will Create Jobs & Improve the Economy", jobs_path, class: "homepage" %> </h2>
@@ -55,8 +53,10 @@
           <div class="item">
                 <div class="fill background" style="background-image">
                   <%= link_to("deal.html#schools") do %>
+                  <div class ='carousel-image'>
                     <%= image_tag("new_kids2.jpg", class: "fill") %>
                     <% end %>
+                  </div>
                 </div>
                 <div class="carousel-caption">
                     <h2><%= link_to("Having Aecon Pay for the Airport Will Free Up Money to Help Schools and Seniors", "deal.html#schools") %></h2>

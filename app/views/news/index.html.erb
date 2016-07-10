@@ -1,27 +1,25 @@
-<!-- Page Content -->
-<div class="container">
+<br>
 
-    <!-- Page Heading/Breadcrumbs -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">News<h1>
-        </div>
-    </div>
-    <!-- /.row -->
+<%= link_to 'New Article', admin_news_new_path %>
 
+<br>
+<br>
 
-    <%= render partial: "news" %>
+<% @articles.each do |a| %>
 
+  <div class="row">
+      <div class="col-md-7">
+          <%= image_tag(a.outlet.image, class: "news_image") %>
+          <h3><%=a.headline%></h3>
+          <h5><%= a.date_published.strftime("%B %e %Y") %></h5>
+          <p><%=a.content%></p>
+          <%= link_to 'Edit', edit_news_path(a), class: "btn btn-primary" %>
+          <%= link_to 'Delete', edit_news_path(a), class: "btn btn-primary" %>
+          <!-- <a class="btn btn-primary">Edit Article</i></a>
+          <a class="btn btn-primary" href="<%= a.url %>">Delete Article</i></a> -->
+      </div>
+  </div>
 
+  <hr>
 
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- <p>Copyright &copy; Your Website 2014</p> -->
-            </div>
-        </div>
-    </footer>
-
-</div>
-<!-- /.container -->
+<% end %>

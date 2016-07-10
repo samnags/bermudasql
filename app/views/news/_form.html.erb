@@ -1,0 +1,29 @@
+<br>
+
+<%= form_for(@article, url: admin_news_path) do |f| %>
+  <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@article.errors.count, "error") %> prohibited this article from being saved:</h2>
+
+      <ul>
+      <% @article.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<p>  <%= f.label :headline %>
+<p>  <%= f.text_field :headline %></p>
+<p>  <%= f.label :author %>
+<p>  <%= f.text_field :author %></p>
+<p>  <%= f.label :date_published %>
+<p>  <%= f.date_select :date_published %></p>
+<p>  <%= f.label :content %>
+<p>  <%= f.text_area :content %></p>
+<p>  <%= f.label :url, "URL" %>
+<p>  <%= f.text_field :url %></p>
+<p>  <%= f.label :outlet_id, "Select an Outlet" %>
+<p>  <%= f.collection_select(:outlet_id, Outlet.all, :id, :name) %><br>
+<p>  <%= submit_tag(value ="Add Article")  %>
+<% end %>

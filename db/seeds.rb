@@ -220,6 +220,41 @@ Bermuda Airport ground testing, November 16 2015
 “We commend the Bermudian firms for their high calibre of work and we remain committed to offering local businesses the opportunity to participate in future stages of this exciting airport redevelopment project,” he added."})
 
 
+article12 = Article.create({headline: "Let us move the airport conversation forward", author: "Wayne Scott", date_published: DateTime.new(2016, 7, 19), content: "No one on my side of the aisle in the House of Assembly wants to deny Opposition the opportunity to oppose the Bermuda Government’s plans to build a new airport. That is, after all, its job.
+
+What we would like to do, though, is persuade the Opposition to stick a little closer to the facts in its campaign against the plan. So far, the Progressive Labour Party has been working very hard to get the Bermuda public to believe a version of the facts about the new airport that just is not correct.
+
+When criticising the airport redevelopment project, the PLP conveniently ignore that it spent $3 million on having consultants advise on the need for a new airport. It ignores that the plan it came up with would have cost some $500 million to build. The PLP ignores that it didn’t happen because it failed to figure out a way of paying for the much needed new facility, no matter how hard it tried.
+
+I would like to give the public my take on the controversy, in the hope that it helps to shed light on the parts of the plan that the public may have questions about and may not understand.
+
+This was a project that began with the Ministry of Finance having one of those “Eureka!” moments — experiencing the excitement of discovering a method of financing a new airport by means of an arrangement that was not going to have a negative effect on Bermuda’s debt burden.
+
+It was an arrangement that would shield the country from the huge upfront costs that characterise large capital projects of this kind. It was an arrangement that gave us the ability to spend badly needed money on such things as schools and seniors’ pensions.
+
+It cost less than half of the PLP’s plan, and it was also a deal that carried a Canadian Government guarantee of on-time delivery of the project with no cost overruns.
+
+Bob Richards thought he had died and gone to heaven. And others in the Government were quick to agree. In our enthusiasm, we failed to focus on two important factors: first, the state of the airport. While it was well known to those who worked there, it was not well known in the community. There had not been stories on the grapevine or in the media about sewage coming up from under the floor, and rain coming in through the roof. Bermudians got into and out of the country without seeing that. As a result, they thought the airport would be good to go for decades longer. Our scheme to build a new terminal came as a surprise to much of the population, and they wondered if we were reading the situation correctly.
+
+Second, it was such a good deal that some Bermudians suspected there must be some kind of catch to it. Somehow, they suspected, the fix must be in. That was a story that suited the Opposition down to the ground. It needed an issue in this pre-election time frame that would demonstrate its financial acumen, and the One Bermuda Alliance’s lack of it.
+
+So it went on a long and wide-ranging fishing expedition, looking to pull up from the detail evidence of some piece of deceitful behaviour that would explain why we were so hellbent on signing this deal with the Canadian Government, through the Canadian Commercial Corporation and its subcontractor, Aecon Concessions.
+
+The good news is the PLP never found that piece of evidence it was looking for. The smoking gun, as they say, just isn’t there. Months and months of PLP searching has turned up nothing.
+
+It is clear to me that the PLP cares more for its own selfish political gain than about the facts and about serving the community.
+
+The bad news is that this fishing expedition has left a lot of confused Bermudians in its wake. Some people now just don’t know what to believe.
+
+Well, I’m happy to welcome a new website to the scene, which may help those in that category to make up their minds. It’s at www.Bermudaairportfacts.com, and it is now up and running on the web. I urge all Bermudians to go and have a look. It’s a dynamic site, so it will change quickly as new information is put forward, or as a new misinterpretation needs to be corrected.
+
+I also urge those who are interested to watch the CITV presentation On Borrowed Time, at www.youtube.com/watch?v=4smMBCsaong. It’s a little long, but it gives a very full and revealing picture of the present state of the airport.
+
+And finally, for the record, I have been involved in this project since the beginning. I know all the players and I have taken part in all the decisions. I can attest that the Bermuda Government/Canadian Government deal was entered into solely because we need a new airport, and because this is the best way of making this hugely significant, infrastructural improvement without encumbering our children and grandchildren with any more debt. They have got more than they can handle as it is.
+
+There’s no fix involved. This is the best deal we were able to get in the service of our country. That’s the simple truth." })
+
+
 
 bern.articles << article1
 bern.articles << article2
@@ -232,3 +267,4 @@ bern.articles << article8
 bern.articles << article9
 bern.articles << article10
 bern.articles << article11
+royal.articles << article12

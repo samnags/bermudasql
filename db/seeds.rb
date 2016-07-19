@@ -220,7 +220,7 @@ Bermuda Airport ground testing, November 16 2015
 “We commend the Bermudian firms for their high calibre of work and we remain committed to offering local businesses the opportunity to participate in future stages of this exciting airport redevelopment project,” he added."})
 
 
-article12 = Article.create({headline: "Let us move the airport conversation forward", author: "Wayne Scott", date_published: DateTime.new(2016, 7, 19), content: "No one on my side of the aisle in the House of Assembly wants to deny Opposition the opportunity to oppose the Bermuda Government’s plans to build a new airport. That is, after all, its job.
+article12 = Article.create({headline: "Let us move the airport conversation forward", author: "Wayne Scott", date_published: DateTime.new(2016, 7, 19), url: "http://www.royalgazette.com/opinion/article/20160719/let-us-move-airport-conversation-forward", content: "No one on my side of the aisle in the House of Assembly wants to deny Opposition the opportunity to oppose the Bermuda Government’s plans to build a new airport. That is, after all, its job.
 
 What we would like to do, though, is persuade the Opposition to stick a little closer to the facts in its campaign against the plan. So far, the Progressive Labour Party has been working very hard to get the Bermuda public to believe a version of the facts about the new airport that just is not correct.
 

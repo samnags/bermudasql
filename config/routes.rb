@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get '/deal' => 'deal#index'
   get '/news' => 'news#display'
 
+  get '/guarantee' => 'pdf#index'
 
   # get '/admin/news' => 'news#index'
   # get '/admin/news/new' => 'news#new'
